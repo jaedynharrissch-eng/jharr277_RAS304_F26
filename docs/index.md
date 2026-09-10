@@ -11,7 +11,7 @@ as part of<br>
 for<br>
 <font size= "5"> Team 101 </font><br>
 
-**Submission: month, DD, YYYY**
+**Submission: September, 09, 2026**
 </center>
 
 ## Introduction
