@@ -53,7 +53,7 @@ The ribbon cable carries UART transmit, receive, and common ground connections. 
 
 ## Block Diagram
 
-![ImageAltTitle](IndividualPindiagram.drawio.png)
+![ImageAltTitle](Indivusal Pin diagram.drawio.png)
 
 ## Functional Description
 
