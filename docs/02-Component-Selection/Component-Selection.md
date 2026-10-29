@@ -28,7 +28,7 @@ The purpose of the Cliff Detection subsystem is to detect when the robot approac
 [View TCRT5000 on DigiKey](https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TCRT5000/1681167)
 
 ### 2. VL6180X-SATEL Time-of-Flight Sensor
-
+![ImageAltTitle](VL6180X-SATEL.png)
 **Price:** $22.70 (assignment reference)
 
 **Pros:**
@@ -46,7 +46,7 @@ The purpose of the Cliff Detection subsystem is to detect when the robot approac
 [View VL6180X-SATEL on DigiKey](https://www.digikey.com/en/products/detail/stmicroelectronics/VL6180X-SATEL/5168368)
 
 ### 3. VL53L0CXV0DH/1 Time-of-Flight Sensor
-
+![ImageAltTitle](VL53L0CXV0DH.png)
 **Price:** $4.63 (assignment reference)
 
 **Pros:**
