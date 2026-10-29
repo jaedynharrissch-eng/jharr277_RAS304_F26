@@ -10,8 +10,8 @@ title: Component Selection Example
 The purpose of the Cliff Detection subsystem is to detect when the robot approaches an edge or drop-off. Three sensors were considered based on cost, sensing capabilities, electrical requirements, and integration with the PIC18F57Q43 microcontroller.
 
 ### 1. TCRT5000 Infrared Reflective Sensor
-
-**Price:** $1.63 (assignment reference)
+![ImageAltTitle](TCRT5000_sml.png)
+**Price:** $1.63
 
 **Pros:**
 - Low-cost and readily available.
