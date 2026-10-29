@@ -29,7 +29,7 @@ The purpose of the Cliff Detection subsystem is to detect when the robot approac
 
 ### 2. VL6180X-SATEL Time-of-Flight Sensor
 ![ImageAltTitle](VL6180X-SATEL.png)
-**Price:** $22.70 (assignment reference)
+**Price:** $22.70
 
 **Pros:**
 - Measures physical distance rather than reflected light intensity.
@@ -47,7 +47,7 @@ The purpose of the Cliff Detection subsystem is to detect when the robot approac
 
 ### 3. VL53L0CXV0DH/1 Time-of-Flight Sensor
 ![ImageAltTitle](VL53L0CXV0DH.png)
-**Price:** $4.63 (assignment reference)
+**Price:** $4.63
 
 **Pros:**
 - Measures physical distance using time-of-flight technology.
