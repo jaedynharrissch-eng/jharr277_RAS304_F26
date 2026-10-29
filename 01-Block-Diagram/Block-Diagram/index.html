@@ -565,10 +565,65 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#example-block-diagram" class="md-nav__link">
+  <a href="#power-source" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Example Block Diagram
+        Power Source
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controller" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Controller
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sensors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sensors
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#team-interfaces" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Team Interfaces
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#block-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Block Diagram
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#functional-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Functional Description
       
     </span>
   </a>
@@ -912,10 +967,65 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#example-block-diagram" class="md-nav__link">
+  <a href="#power-source" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Example Block Diagram
+        Power Source
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controller" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Controller
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sensors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sensors
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#team-interfaces" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Team Interfaces
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#block-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Block Diagram
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#functional-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Functional Description
       
     </span>
   </a>
@@ -998,18 +1108,73 @@
   <h1>Individal Block Diagram</h1>
 
 <h2 id="overview">Overview</h2>
-<p>This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...</p>
-<p>To get some initial formatting help, one can view <a href="https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/">"here"</a> some basic techniques.</p>
-<h2 id="example-block-diagram">Example Block Diagram</h2>
-<p>Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="IndivusalPindiagram.drawio.png" data-desc-position="bottom"><img alt="Indivisual Block Diagram " src="IndivusalPindiagram.drawio.png"></a></p>
+<p>The Cliff Detection Subsystem is designed to prevent the robot from driving off elevated surfaces. It uses two TCRT5000 reflective infrared sensors connected to a Microchip PIC18F57Q43 Curiosity Nano.</p>
+<p>The microcontroller monitors reflected infrared light from the ground and communicates potential cliff hazards to the master controller.</p>
+<h2 id="power-source">Power Source</h2>
+<ul>
+<li>3S Li-ion battery (9–12.6 V) or 9 V bench adapter</li>
+<li>J1 barrel jack</li>
+<li>750 mA fuse (proposed)</li>
+<li>LM2940CT-5.0 voltage regulator</li>
+<li>Regulated 5 V power supply</li>
+<li>USB connection for programming and debugging</li>
+</ul>
+<p>The Curiosity Nano's external power connection must be configured according to Microchip's hardware requirements.</p>
+<h2 id="controller">Controller</h2>
+<p><strong>Microchip PIC18F57Q43 Curiosity Nano</strong></p>
+<table>
+<thead>
+<tr>
+<th>Pin</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RA0 / ANA0</td>
+<td>Left TCRT5000 analog input</td>
+</tr>
+<tr>
+<td>RA1 / ANA1</td>
+<td>Right TCRT5000 analog input</td>
+</tr>
+<tr>
+<td>RD0</td>
+<td>Left infrared LED control</td>
+</tr>
+<tr>
+<td>RD1</td>
+<td>Right infrared LED control</td>
+</tr>
+<tr>
+<td>RB0</td>
+<td>UART2 transmit (proposed)</td>
+</tr>
+<tr>
+<td>RB1</td>
+<td>UART2 receive (proposed)</td>
+</tr>
+<tr>
+<td>GND</td>
+<td>Common ground</td>
+</tr>
+</tbody>
+</table>
+<h2 id="sensors">Sensors</h2>
+<p>The subsystem uses two TCRT5000 reflective infrared sensors, positioned on the left and right sides of the robot.</p>
+<p>Each sensor contains an infrared LED and phototransistor. The LED emits infrared light toward the ground, while the phototransistor detects reflected light.</p>
+<p>The sensor outputs are read through the Curiosity Nano's analog-to-digital converter.</p>
+<h2 id="team-interfaces">Team Interfaces</h2>
+<p>The subsystem communicates with the master controller through Connector 4 using UART2.</p>
+<p>The ribbon cable carries UART transmit, receive, and common ground connections. Exact connector pin assignments must be confirmed with the team.</p>
+<h2 id="block-diagram">Block Diagram</h2>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Individual%20Pin%20diagram.drawio.png" data-desc-position="bottom"><img alt="Cliff Detection Block Diagram" src="Individual%20Pin%20diagram.drawio.png"></a></p>
+<h2 id="functional-description">Functional Description</h2>
+<p>Power enters the subsystem through the J1 barrel jack and passes through fuse protection and a 5 V voltage regulator.</p>
+<p>The two TCRT5000 sensors continuously monitor reflected infrared light from the ground.</p>
+<p>The Curiosity Nano reads the sensor signals through RA0 and RA1 and compares them against calibrated thresholds.</p>
+<p>When either sensor detects a possible loss of ground, the Curiosity Nano sends a cliff warning to the master controller through UART2.</p>
+<p>The master controller can then command the motor subsystem to stop or change direction.</p>
 
 
 
