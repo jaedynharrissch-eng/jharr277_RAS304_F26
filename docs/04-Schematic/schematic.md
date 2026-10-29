@@ -4,10 +4,9 @@ title: Schematic
 
 ## Overview
 
-This schematic is design to support .... (highlight functionally, power, and controller).
 
 
-![schematic](skim_drawing.pdf){style width:"350" height:"300;"}
+![schematic](skim_drawing.png){style width:"350" height:"300;"}
 **Figure ##:** Showing a example schematic.
 
 
