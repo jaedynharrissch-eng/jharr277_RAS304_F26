@@ -5,24 +5,50 @@ tags:
 - tag2
 ---
 
-## Overview
-written context
 
-## Bill of Materials Example (as Table)
+## 2. Bill of Materials and Pricing
 
-*Table ##: An example of one approach to adding your BOM table to this section.*
+**Project:** RAS 304 – Cliff Detection  
+**Supplier:** DigiKey / Other Distributors  
+**Currency:** USD
 
-| **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
-|:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
-8-bit SIPO/SISO Shift Register, SOIC-16 package | 1 | $0.49 | $ 0.49 | NXP | 74HC595D,112 | [DigiKey](https://www.digikey.com/en/products/detail/nexperia-usa-inc/74HC595D-112/763550) | [datasheet link](https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf) | U1 |
-0.1 µF Ceramic Capacitor, +/-10%, X7R, 50V, 0805 package |10 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | C2, C4, C6, C7, C8, C9, C10, C11, C12, C16
+| Reference | Component | Manufacturer Part Number | Qty | Unit Price | Total |
+|---|---|---|---:|---:|---:|
+| U1, U2 | TCRT5000 IR Sensor | TCRT5000 | 2 | $1.33* | $2.66 |
+| R1, R3 | 220 Ohm Resistor, 0805 | CRCW0805220RFKEA | 2 | $0.10 | $0.20 |
+| R2, R4 | 10k Ohm Resistor, 0805 | CRCW080510K0JNEA | 2 | $0.10 | $0.20 |
+| **TOTAL** | | | **6** | | **$3.06** |
 
-Note: Setting it up as a table is nice because it is completely viewable without scaling issues. <ins>Downside</ins> is that you have to do the math.
+*The TCRT5000 price is a reference distributor
+price, not a confirmed current DigiKey USD quote.*
 
-* You could also import your BOM via a screenshot of the spreadsheet created BOM
+### Supplier Links
 
-## Bill of Materials Example (as Image)
-![](BOM-Screenshot.png){style width: "2000"}
-**Figure 2:** Example Bill of Materials as a screenshot.
+- [TCRT5000 Sensor – DigiKey](https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TCRT5000/1681167)
+- [220 Ohm Resistor – DigiKey](https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805220RFKEA/1175559)
+- [10k Ohm Resistor – DigiKey](https://www.digikey.com/en/products/detail/CRCW080510K0JNEA/541-10KACT-ND/1180364)
 
-As you can see, the text can be difficult to read without opening the image.
+## 3. Cost Summary
+
+| Category | Cost |
+|---|---:|
+| Infrared Sensors | $2.66 |
+| 220 Ohm Resistors | $0.20 |
+| 10k Ohm Resistors | $0.20 |
+| **Estimated Subtotal** | **$3.06** |
+
+Shipping, taxes, PCB fabrication, and any
+additional connectors are not included.
+
+## 4. Hardware Ordering Notes
+
+The design requires two complete sensing
+circuits, each containing one TCRT5000,
+one 220 Ohm resistor, and one 10k Ohm resistor.
+
+The quantities above represent components
+installed in the final circuit. Additional
+components may be purchased as spares.
+
+Resistor package size and footprints must
+match the final KiCad PCB design.
