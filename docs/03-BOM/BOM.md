@@ -77,15 +77,11 @@ The complete Bill of Materials is available as an Excel spreadsheet.
 | Category | Cost |
 |----------|------|
 | Components Provided by ASU | $0.00 additional |
-| TCRT5000 Sensors | $3.00 |
-| Fuse Clips | $1.00 |
-| **Total Additional Purchase Cost** | **$4.00** |
+| TCRT5000 Sensors | $6.00 |
+| Fuse Clips | $2.00 |
+| **Total Additional Purchase Cost** | **$8.00** |
 
 ## Notes
 
 - All resistors are rated at 1/4 W.
-- All components use through-hole mounting.
-- Two fuse clips are required for the 250 mA cartridge fuse.
-- Component prices are estimated and exclude shipping and taxes.
 - Components supplied by ASU do not require additional purchasing.
-- The BOM reference designators correspond to the Cliff Detection schematic.
