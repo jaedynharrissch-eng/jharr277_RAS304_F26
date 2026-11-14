@@ -668,10 +668,32 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#cliff-detection-subsystem" class="md-nav__link">
+  <a href="#project-openfield-cliff-detection-subsystem" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Cliff Detection Subsystem
+        Project OpenField – Cliff Detection Subsystem
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bill-of-materials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bill of Materials
       
     </span>
   </a>
@@ -712,10 +734,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#complete-bill-of-materials" class="md-nav__link">
+  <a href="#download-bom" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Complete Bill of Materials
+        Download BOM
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cost-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cost Summary
       
     </span>
   </a>
@@ -951,10 +984,32 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#cliff-detection-subsystem" class="md-nav__link">
+  <a href="#project-openfield-cliff-detection-subsystem" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Cliff Detection Subsystem
+        Project OpenField – Cliff Detection Subsystem
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bill-of-materials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bill of Materials
       
     </span>
   </a>
@@ -995,10 +1050,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#complete-bill-of-materials" class="md-nav__link">
+  <a href="#download-bom" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Complete Bill of Materials
+        Download BOM
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cost-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cost Summary
       
     </span>
   </a>
@@ -1092,82 +1158,299 @@
 <hr>
 <p>title: Bill of Materials</p>
 <h1 id="bill-of-materials-bom">Bill of Materials (BOM)</h1>
-<h2 id="cliff-detection-subsystem">Cliff Detection Subsystem</h2>
-<p>The following Bill of Materials identifies the components
-required for the Cliff Detection subsystem of Project OpenField.
-Most components are provided by Arizona State University
-or included in the RAS304 course kit.</p>
+<h2 id="project-openfield-cliff-detection-subsystem">Project OpenField – Cliff Detection Subsystem</h2>
+<p><strong>Author:</strong> Jaedyn Harris<br>
+<strong>Course:</strong> RAS304 – Embedded Systems<br>
+<strong>Revision:</strong> 1.0<br>
+<strong>Date:</strong> November 14, 2026</p>
+<hr>
+<h2 id="overview">Overview</h2>
+<p>The following Bill of Materials (BOM) lists all components required for the Cliff Detection subsystem. The reference designators correspond to the individual KiCad schematic.</p>
+<p>Most components are provided by Arizona State University (ASU) or included in the RAS304 course kit. The TCRT5000 sensors and fuse clips are the only components that require purchasing.</p>
+<p><a href="../Screenshot%202026-11-14%20082310.png"></a></p>
+<h2 id="bill-of-materials">Bill of Materials</h2>
+<table>
+<thead>
+<tr>
+<th>Reference</th>
+<th>Component</th>
+<th>Specification</th>
+<th>Qty</th>
+<th>Unit Cost</th>
+<th>Total Cost</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>U1</td>
+<td>Curiosity Nano</td>
+<td>PIC18F57Q43, DM164150</td>
+<td>1</td>
+<td>$10.95</td>
+<td>$10.95</td>
+<td>ASU / Kit</td>
+</tr>
+<tr>
+<td>U3, U4</td>
+<td>TCRT5000</td>
+<td>IR Reflective Sensor</td>
+<td>2</td>
+<td>$1.50</td>
+<td>$3.00</td>
+<td>Needs Purchase</td>
+</tr>
+<tr>
+<td>JH1</td>
+<td>LM7805</td>
+<td>5V Regulator, TO-220</td>
+<td>1</td>
+<td>$0.75</td>
+<td>$0.75</td>
+<td>ASU / Kit</td>
+</tr>
+<tr>
+<td>F3</td>
+<td>Fuse</td>
+<td>250 mA, 5x20 mm</td>
+<td>1</td>
+<td>$0.50</td>
+<td>$0.50</td>
+<td>ASU / Kit</td>
+</tr>
+<tr>
+<td>F3</td>
+<td>Keystone 3512</td>
+<td>5x20 mm Fuse Clip</td>
+<td>2</td>
+<td>$0.50</td>
+<td>$1.00</td>
+<td>Needs Purchase</td>
+</tr>
+<tr>
+<td>J1</td>
+<td>DC Barrel Jack</td>
+<td>Power Input Connector</td>
+<td>1</td>
+<td>$1.00</td>
+<td>$1.00</td>
+<td>ASU / Kit</td>
+</tr>
+<tr>
+<td>J2</td>
+<td>Ribbon Connector</td>
+<td>2x4, 8-Pin, 2.54 mm</td>
+<td>1</td>
+<td>$0.75</td>
+<td>$0.75</td>
+<td>ASU / Kit</td>
+</tr>
+<tr>
+<td>R8, R9</td>
+<td>Resistor</td>
+<td>220 Ω, 1/4 W</td>
+<td>2</td>
+<td>$0.10</td>
+<td>$0.20</td>
+<td>ASU / Kit</td>
+</tr>
+<tr>
+<td>R1, R4, R7</td>
+<td>Resistor</td>
+<td>1 kΩ, 1/4 W</td>
+<td>3</td>
+<td>$0.10</td>
+<td>$0.30</td>
+<td>ASU / Kit</td>
+</tr>
+<tr>
+<td>R10, R11, R12</td>
+<td>Resistor</td>
+<td>10 kΩ, 1/4 W</td>
+<td>3</td>
+<td>$0.10</td>
+<td>$0.30</td>
+<td>ASU / Kit</td>
+</tr>
+<tr>
+<td>C5</td>
+<td>Capacitor</td>
+<td>0.33 µF, 25V</td>
+<td>1</td>
+<td>$0.20</td>
+<td>$0.20</td>
+<td>ASU / Kit</td>
+</tr>
+<tr>
+<td>C6</td>
+<td>Capacitor</td>
+<td>0.1 µF, 25V</td>
+<td>1</td>
+<td>$0.15</td>
+<td>$0.15</td>
+<td>ASU / Kit</td>
+</tr>
+<tr>
+<td>C9, C11</td>
+<td>Capacitor</td>
+<td>0.1 µF, 16V</td>
+<td>2</td>
+<td>$0.15</td>
+<td>$0.30</td>
+<td>ASU / Kit</td>
+</tr>
+<tr>
+<td>D1</td>
+<td>Green LED</td>
+<td>5 mm, Through-Hole</td>
+<td>1</td>
+<td>$0.15</td>
+<td>$0.15</td>
+<td>ASU / Kit</td>
+</tr>
+<tr>
+<td>D4</td>
+<td>Red LED</td>
+<td>5 mm, Through-Hole</td>
+<td>1</td>
+<td>$0.15</td>
+<td>$0.15</td>
+<td>ASU / Kit</td>
+</tr>
+<tr>
+<td>D5</td>
+<td>Yellow LED</td>
+<td>5 mm, Through-Hole</td>
+<td>1</td>
+<td>$0.15</td>
+<td>$0.15</td>
+<td>ASU / Kit</td>
+</tr>
+<tr>
+<td>SW1</td>
+<td>Pushbutton</td>
+<td>Momentary, Normally Open</td>
+<td>1</td>
+<td>$0.30</td>
+<td>$0.30</td>
+<td>ASU / Kit</td>
+</tr>
+<tr>
+<td>U1</td>
+<td>Mounting Headers</td>
+<td>1x28, 2.54 mm</td>
+<td>2</td>
+<td>Included</td>
+<td>Included</td>
+<td>ASU / Kit</td>
+</tr>
+</tbody>
+</table>
+<hr>
 <h2 id="components-to-purchase">Components to Purchase</h2>
 <table>
 <thead>
 <tr>
 <th>Component</th>
-<th>Reference</th>
-<th>Qty</th>
+<th>Quantity</th>
 <th>Unit Cost</th>
 <th>Total Cost</th>
+<th>Vendor</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>TCRT5000 IR Reflective Sensor</td>
-<td>U3, U4</td>
 <td>2</td>
 <td>$1.50</td>
 <td>$3.00</td>
+<td>DigiKey</td>
 </tr>
 <tr>
 <td>Keystone 3512 Fuse Clip</td>
-<td>F3</td>
 <td>2</td>
 <td>$0.50</td>
 <td>$1.00</td>
+<td>DigiKey</td>
 </tr>
 <tr>
 <td><strong>Total</strong></td>
-<td></td>
 <td><strong>4</strong></td>
 <td></td>
 <td><strong>$4.00</strong></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 <h2 id="purchase-links">Purchase Links</h2>
+<ul>
+<li><a href="https://www.digikey.com/en/products?keywords=TCRT5000">TCRT5000 Reflective Optical Sensor</a></li>
+<li><a href="https://www.digikey.com/en/products?keywords=Keystone%203512">Keystone 3512 Fuse Clip</a></li>
+</ul>
+<hr>
+<h2 id="datasheets">Datasheets</h2>
 <table>
 <thead>
 <tr>
 <th>Component</th>
-<th>Vendor</th>
-<th>Purchase Link</th>
+<th>Datasheet</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>TCRT5000</td>
-<td>DigiKey</td>
-<td><a href="https://www.digikey.com/en/products?keywords=TCRT5000">View Product</a></td>
+<td>PIC18F57Q43 Curiosity Nano</td>
+<td><a href="https://www.microchip.com/en-us/development-tool/DM164150">Microchip Documentation</a></td>
 </tr>
 <tr>
-<td>Keystone 3512 Fuse Clip</td>
-<td>DigiKey</td>
-<td><a href="https://www.digikey.com/en/products?keywords=Keystone%203512">View Product</a></td>
+<td>TCRT5000</td>
+<td><a href="https://www.vishay.com/docs/83760/tcrt5000.pdf">Vishay Datasheet</a></td>
+</tr>
+<tr>
+<td>LM7805</td>
+<td><a href="https://www.ti.com/lit/ds/symlink/lm340.pdf">Voltage Regulator Datasheet</a></td>
 </tr>
 </tbody>
 </table>
-<h2 id="datasheets">Datasheets</h2>
-<ul>
-<li><a href="https://www.vishay.com/docs/83760/tcrt5000.pdf">TCRT5000 Datasheet</a></li>
-</ul>
-<h2 id="complete-bill-of-materials">Complete Bill of Materials</h2>
-<p><a href="../Cliff_Detection_BOM_Final.xlsx">Download Complete BOM (Excel)</a></p>
+<hr>
+<h2 id="download-bom">Download BOM</h2>
+<p>The complete Bill of Materials is available as an Excel spreadsheet.</p>
+<p><a href="../Cliff_Detection_BOM_Final.xlsx">Download Cliff Detection BOM (.xlsx)</a></p>
+<hr>
+<h2 id="cost-summary">Cost Summary</h2>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Components Provided by ASU</td>
+<td>$0.00 additional</td>
+</tr>
+<tr>
+<td>TCRT5000 Sensors</td>
+<td>$3.00</td>
+</tr>
+<tr>
+<td>Fuse Clips</td>
+<td>$1.00</td>
+</tr>
+<tr>
+<td><strong>Total Additional Purchase Cost</strong></td>
+<td><strong>$4.00</strong></td>
+</tr>
+</tbody>
+</table>
 <h2 id="notes">Notes</h2>
 <ul>
-<li>All remaining components are provided by ASU or
-  included in the course kit.</li>
-<li>Two fuse clips are required to mount the 250 mA,
-  5 x 20 mm cartridge fuse.</li>
-<li>Estimated additional purchase cost: $4.00.</li>
-<li>Prices exclude shipping and taxes.</li>
+<li>All resistors are rated at 1/4 W.</li>
+<li>All components use through-hole mounting.</li>
+<li>Two fuse clips are required for the 250 mA cartridge fuse.</li>
+<li>Component prices are estimated and exclude shipping and taxes.</li>
+<li>Components supplied by ASU do not require additional purchasing.</li>
+<li>The BOM reference designators correspond to the Cliff Detection schematic.</li>
 </ul>
 
 
