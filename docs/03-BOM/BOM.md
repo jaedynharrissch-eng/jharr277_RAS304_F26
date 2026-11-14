@@ -11,7 +11,7 @@ The following Bill of Materials (BOM) lists all components required for the Clif
 
 Most components are provided by Arizona State University (ASU) or included in the RAS304 course kit. The TCRT5000 sensors and fuse clips are the only components that require purchasing.
 
-![schematic](pete.png)
+![schematic](pete2.png)
 
 
 ## Bill of Materials
