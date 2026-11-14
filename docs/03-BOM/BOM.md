@@ -19,10 +19,10 @@ Most components are provided by Arizona State University (ASU) or included in th
 | Reference | Component | Specification | Qty | Unit Cost | Total Cost | Status |
 |-----------|-----------|--------------|-----|-----------|------------|--------|
 | U1 | Curiosity Nano | PIC18F57Q43, DM164150 | 1 | $10.95 | $10.95 | ASU / Kit |
-| U3, U4 | TCRT5000 | IR Reflective Sensor | 2 | $1.50 | $3.00 | Needs Purchase |
+| U3, U4 | TCRT5000 | IR Reflective Sensor | 4 | $1.50 | $6.00 | Needs Purchase |
 | JH1 | LM7805 | 5V Regulator, TO-220 | 1 | $0.75 | $0.75 | ASU / Kit |
 | F3 | Fuse | 250 mA, 5x20 mm | 1 | $0.50 | $0.50 | ASU / Kit |
-| F3 | Keystone 3512 | 5x20 mm Fuse Clip | 2 | $0.50 | $1.00 | Needs Purchase |
+| F3 | Keystone 3512 | 5x20 mm Fuse Clip | 4 | $0.50 | $2.00 | Needs Purchase |
 | J1 | DC Barrel Jack | Power Input Connector | 1 | $1.00 | $1.00 | ASU / Kit |
 | J2 | Ribbon Connector | 2x4, 8-Pin, 2.54 mm | 1 | $0.75 | $0.75 | ASU / Kit |
 | R8, R9 | Resistor | 220 Ω, 1/4 W | 2 | $0.10 | $0.20 | ASU / Kit |
