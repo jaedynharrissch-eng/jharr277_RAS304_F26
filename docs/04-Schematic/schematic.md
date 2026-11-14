@@ -2,14 +2,6 @@
 
 ## Project OpenField – Cliff Detection Subsystem
 
-**Author:** Jaedyn Harris  
-**Course:** RAS304 – Embedded Systems  
-**Team:** Team 1  
-**Microcontroller:** PIC18F57Q43 Curiosity Nano  
-**Revision:** 2.0  
-
----
-
 ## Overview
 
 This schematic is for my Cliff Detection subsystem board in Project OpenField.
