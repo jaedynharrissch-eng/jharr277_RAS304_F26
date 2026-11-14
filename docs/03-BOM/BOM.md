@@ -43,9 +43,9 @@ Most components are provided by Arizona State University (ASU) or included in th
 
 | Component | Quantity | Unit Cost | Total Cost | Vendor |
 |-----------|----------|-----------|------------|--------|
-| TCRT5000 IR Reflective Sensor | 2 | $1.50 | $3.00 | DigiKey |
-| Keystone 3512 Fuse Clip | 2 | $0.50 | $1.00 | DigiKey |
-| **Total** | **4** | | **$4.00** | |
+| TCRT5000 IR Reflective Sensor | 4 | $1.50 | $6.00 | DigiKey |
+| Keystone 3512 Fuse Clip | 4 | $0.50 | $2.00 | DigiKey |
+| **Total** | **4** | | **$8.00** | |
 
 ## Purchase Links
 
