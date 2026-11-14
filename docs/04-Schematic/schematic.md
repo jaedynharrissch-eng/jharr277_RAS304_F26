@@ -10,6 +10,6 @@ title: Schematic
 
 
 
-## Resouces
 
-The schematic as a PDF download is available [*here*](skim_drawing.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
+
+The schematic as a PDF download is available [*here*](Newskimcliff.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
