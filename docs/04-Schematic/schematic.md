@@ -6,8 +6,8 @@ title: Schematic
 
 
 
-![schematic](skim_drawing.png){style width:"350" height:"300;"}
-**Figure ##:** Showing a example schematic.
+![schematic](Newskimcliff-1.png){style width:"350" height:"300;"}
+
 
 
 ## Resouces
