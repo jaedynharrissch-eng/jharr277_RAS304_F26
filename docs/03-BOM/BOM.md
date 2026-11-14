@@ -1,14 +1,7 @@
----
-title: Bill of Materials
-
 # Bill of Materials (BOM)
 
 ## Project OpenField – Cliff Detection Subsystem
 
-**Author:** Jaedyn Harris  
-**Course:** RAS304 – Embedded Systems  
-**Revision:** 1.0  
-**Date:** November 14, 2026
 
 ---
 
@@ -18,7 +11,7 @@ The following Bill of Materials (BOM) lists all components required for the Clif
 
 Most components are provided by Arizona State University (ASU) or included in the RAS304 course kit. The TCRT5000 sensors and fuse clips are the only components that require purchasing.
 
-![schematic](Screenshot2026-11-14082310.png)
+![schematic](pete.png)
 
 
 ## Bill of Materials
