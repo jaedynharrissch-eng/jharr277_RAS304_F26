@@ -6,7 +6,7 @@ title: Schematic
 
 
 
-![schematic](Newskimcliff-1.png){style width:"350" height:"300;"}
+![schematic](Newskimcliff-1.png)
 
 
 
