@@ -863,34 +863,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Cliff Detection Subsystem">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#pcb-overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        PCB Overview
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#pcb-specifications" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        PCB Specifications
-      
-    </span>
-  </a>
-  
 </li>
       
         <li class="md-nav__item">
@@ -898,6 +870,17 @@
     <span class="md-ellipsis">
       
         PCB Layout
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design-specifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Design Specifications
       
     </span>
   </a>
@@ -916,10 +899,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#manufacturing-files" class="md-nav__link">
+  <a href="#design-for-manufacturing-dfm" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Manufacturing Files
+        Design for Manufacturing (DFM)
       
     </span>
   </a>
@@ -927,10 +910,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#manufacturing-verification" class="md-nav__link">
+  <a href="#manufacturing-files" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Manufacturing Verification
+        Manufacturing Files
       
     </span>
   </a>
@@ -1053,34 +1036,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Cliff Detection Subsystem">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#pcb-overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        PCB Overview
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#pcb-specifications" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        PCB Specifications
-      
-    </span>
-  </a>
-  
 </li>
       
         <li class="md-nav__item">
@@ -1088,6 +1043,17 @@
     <span class="md-ellipsis">
       
         PCB Layout
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design-specifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Design Specifications
       
     </span>
   </a>
@@ -1106,10 +1072,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#manufacturing-files" class="md-nav__link">
+  <a href="#design-for-manufacturing-dfm" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Manufacturing Files
+        Design for Manufacturing (DFM)
       
     </span>
   </a>
@@ -1117,10 +1083,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#manufacturing-verification" class="md-nav__link">
+  <a href="#manufacturing-files" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Manufacturing Verification
+        Manufacturing Files
       
     </span>
   </a>
@@ -1202,24 +1168,21 @@
 
 <h1 id="pcb-design">PCB Design</h1>
 <h2 id="cliff-detection-subsystem">Cliff Detection Subsystem</h2>
-<h3 id="pcb-overview">PCB Overview</h3>
-<p>The PCB was designed in KiCad for the Cliff Detection Subsystem. It integrates the Curiosity Nano microcontroller, TCRT5000 infrared sensors, power supply, and communication connections.</p>
-<h2 id="pcb-specifications">PCB Specifications</h2>
+<p>The PCB was designed in KiCad for the cliff detection subsystem. It integrates the Curiosity Nano microcontroller, infrared sensors, power circuitry, status LEDs, and connectors.</p>
+<h2 id="pcb-layout">PCB Layout</h2>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../team101_cad.png" data-desc-position="bottom"><img alt="PCB Layout" src="../team101_cad.png"></a></p>
+<h2 id="design-specifications">Design Specifications</h2>
 <table>
 <thead>
 <tr>
+<th>Parameter</th>
 <th>Specification</th>
-<th>Value</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Board Width</td>
-<td>80 mm</td>
-</tr>
-<tr>
-<td>Board Height</td>
-<td>90 mm</td>
+<td>Board Dimensions</td>
+<td>80 mm × 90 mm</td>
 </tr>
 <tr>
 <td>Copper Layers</td>
@@ -1233,20 +1196,26 @@
 <td>Signal Trace Width</td>
 <td>0.2 mm</td>
 </tr>
+<tr>
+<td>Board Material</td>
+<td>FR4</td>
+</tr>
 </tbody>
 </table>
-<h2 id="pcb-layout">PCB Layout</h2>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="PCB.png" data-desc-position="bottom"><img alt="PCB Layout" src="PCB.png"></a></p>
 <h2 id="design-rules-check-drc">Design Rules Check (DRC)</h2>
+<p>The PCB was checked using KiCad's Design Rules Checker.</p>
 <ul>
 <li>Errors: 0</li>
 <li>Warnings: 0</li>
 <li>Unconnected Items: 0</li>
 </ul>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../harris_jaedyn_DRC.png" data-desc-position="bottom"><img alt="DRC Results" src="../harris_jaedyn_DRC.png"></a></p>
+<h2 id="design-for-manufacturing-dfm">Design for Manufacturing (DFM)</h2>
+<p>The Gerber and drill files were uploaded to JLCPCB's DFM checker to evaluate manufacturing compatibility.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../harris_jaedyn_DFM.png" data-desc-position="bottom"><img alt="DFM Results" src="../harris_jaedyn_DFM.png"></a></p>
 <h2 id="manufacturing-files">Manufacturing Files</h2>
+<p>The ZIP archive contains the Gerber and drill files required for PCB fabrication.</p>
 <p><a href="../Harris_Jaedyn_Team101.zip">Download Gerber and Drill Files</a></p>
-<h2 id="manufacturing-verification">Manufacturing Verification</h2>
-<p>The PCB was exported as Gerber and Excellon drill files for manufacturing verification using JLCPCB DFM.</p>
 
 
 
