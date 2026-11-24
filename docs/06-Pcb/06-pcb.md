@@ -39,4 +39,4 @@ The Gerber and drill files were uploaded to JLCPCB's DFM checker to evaluate man
 
 The ZIP archive contains the Gerber and drill files required for PCB fabrication.
 
-[Download Gerber and Drill Files](Harris_Jaedyn_Team101_p2.zip)
+[Download Gerber and Drill Files](Harris_Jaedyn_Team101_p3.zip)
